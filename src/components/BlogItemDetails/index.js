@@ -54,7 +54,7 @@ class BlogItemDetails extends Component {
     const {isLoading} = this.state
 
     return (
-      <div className="blog-container">
+      <div className="blog-container ">
         {isLoading ? (
           <div data-testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
